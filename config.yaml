@@ -1,0 +1,21 @@
+dev: false
+signup: false
+project_name: 'TS Dashboard'
+moduleName: 'ts-dashboard'
+digInUrl: '/app/ts-dashboard/home'
+requiredLogin: false
+mongo_db:
+  url: 'mongodb+srv://tony3898:tony@1234@ts-dashboard-cluster.ozv00.mongodb.net'
+  db: ts-dashboard
+
+connection:
+  port: 5001
+  host: localhost
+
+nav:
+  - name: 'Dashboard'
+    path: 'home'
+  - name: 'Colleges'
+    path: 'colleges'
+  - name: 'Students'
+    path: 'students'
